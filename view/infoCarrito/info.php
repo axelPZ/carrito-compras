@@ -94,7 +94,7 @@
             </div>
             <div class="col-3">
                 <h6>
-                    <a href=""></a>
+                    <a href="https://github.com/axelPZ/carrito-compras"></a>
                 </h6>
             </div>
         </div>
