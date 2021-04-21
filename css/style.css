@@ -1,0 +1,348 @@
+
+
+html
+{
+    box-sizing: border-box;
+}
+
+h1, h3, h4, h6
+{
+    font-family: Oswald;
+}
+
+
+hr
+{
+    margin:0px !important;
+    padding: 0px !important;
+}
+
+.img-acordeon{
+    width: 100px;
+}
+
+@media (max-width: 600px) {
+    .img-acordeon{
+        width: 50px;
+    }   
+}
+@media (max-width:430px ) {
+    .phone-none{
+        display: none;
+    }
+}
+@media (min-width: 429px) {
+    .phone-true{
+        display: none;
+    }
+}
+.degradado
+{
+    /*https://www.colorzilla.com/gradient-editor/*/
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffbc05+0,febf04+44,f9d861+71,f9d861+71,f9e69f+84,fcfbf7+100 */
+    background: rgb(255,188,5); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(255,188,5,1) 0%, rgba(254,191,4,1) 44%, rgba(249,216,97,1) 71%, rgba(249,216,97,1) 71%, rgba(249,230,159,1) 84%, rgba(252,251,247,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(255,188,5,1) 0%,rgba(254,191,4,1) 44%,rgba(249,216,97,1) 71%,rgba(249,216,97,1) 71%,rgba(249,230,159,1) 84%,rgba(252,251,247,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(255,188,5,1) 0%,rgba(254,191,4,1) 44%,rgba(249,216,97,1) 71%,rgba(249,216,97,1) 71%,rgba(249,230,159,1) 84%,rgba(252,251,247,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbc05', endColorstr='#fcfbf7',GradientType=1 ); /* IE6-9 */
+}
+
+.degradado-2
+{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000570+3,000c99+15,207cca+45,7db9e8+69,ceeaff+100 */
+background: rgb(0,5,112); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(0,5,112,1) 3%, rgba(0,12,153,1) 15%, rgba(32,124,202,1) 45%, rgba(125,185,232,1) 69%, rgba(206,234,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(0,5,112,1) 3%,rgba(0,12,153,1) 15%,rgba(32,124,202,1) 45%,rgba(125,185,232,1) 69%,rgba(206,234,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(0,5,112,1) 3%,rgba(0,12,153,1) 15%,rgba(32,124,202,1) 45%,rgba(125,185,232,1) 69%,rgba(206,234,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000570', endColorstr='#ceeaff',GradientType=1 ); /* IE6-9 */
+}
+
+.degradado-3{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f2f5f6+0,e3eaed+37,c8d7dc+100 */
+background: rgb(242,245,246); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(242,245,246,1) 0%, rgba(227,234,237,1) 37%, rgba(200,215,220,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(242,245,246,1) 0%,rgba(227,234,237,1) 37%,rgba(200,215,220,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(242,245,246,1) 0%,rgba(227,234,237,1) 37%,rgba(200,215,220,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', endColorstr='#c8d7dc',GradientType=0 ); /* IE6-9 */
+
+}
+
+.historialMenu
+{
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .historial
+    {
+        display: none;
+    }
+    .historialMenu
+    {
+        display: block;
+    }
+}
+
+.subContenido
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.subContenido .contenido
+{
+    width: 30%;
+}
+
+@media (max-width:599px) {
+
+    .subContenido
+    {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .subContenido .contenido
+    {
+        width: 80%;
+    }
+    
+}
+
+.subContenido .contenido p
+{
+    padding: 1rem 0;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 30px;
+    text-align: center;
+    padding-left: 50px;
+    color: white;
+}
+
+.subContenido .contenido1 p
+{
+    background-image: url('../imagenes/system/icono1.png');
+}
+.subContenido .contenido2 p
+{
+    background-image: url('../imagenes/system/icono2.png');
+}
+.subContenido .contenido3 p
+{
+    background-image: url('../imagenes/system/icono3.png');
+}
+
+#card-product .card-body p, #card-product .card-body h4
+{
+        padding: 0;
+        margin: 0;
+}
+#card-product .card-body .product-type
+{
+    font-size: 12px;
+    margin-top: .2rem;
+    margin-left: .3rem;
+}
+
+/**carrito**/
+.contendorCarrito
+{
+    position: relative;
+}
+
+.carrito
+{
+    position: absolute;
+    right: 4rem;
+    top: 100%;
+    padding: 2rem;
+
+    z-index: 100;
+    background-color:white;
+    border-radius: 1rem;
+    min-width: 600px;
+    min-height: 300px;
+    max-height: 300px;
+    overflow: scroll;
+}
+@media (max-width: 750px ) {
+    .carrito
+    {
+        right: -4rem;
+    }    
+}
+
+@media (max-width: 600px) {
+    .carrito{
+        right: 0;
+        max-width: 300px;
+        min-width: 200px;
+    }
+   .carrito .img-carrito{
+        width: 50px !important;
+    }
+
+    .carrito table td, .carrito table th{
+        font-size: 10px;
+    }
+    .carrito .display-responsive{
+        display: none;
+    }
+}
+
+.contendorCarrito img
+{
+    cursor: pointer;
+}
+
+/*listado carrito*/
+.listaProducts #card-product img
+{
+    cursor: pointer;
+}
+.listaProducts .descripcion
+{
+    font-family: PT Sans Narrow;
+}
+.listaProducts p span
+{
+    font-family: Open Sans Condensed;
+    font-size: 30px;
+}
+.listaProducts p
+{
+    bottom: 0px;
+}
+
+.btn-borrarProducto 
+{
+    background-color: red;
+    color: white;
+    padding: .2rem .5rem;
+    text-decoration: none;
+}
+/*listado productos*/
+@media (max-width:400px ) {
+    .listaProducts p span
+    {
+        font-size: 15px!important;
+    }
+    
+}
+
+/*contendo de la c mpra */
+.contSale p 
+{
+    font-family: Open Sans Condensed;
+    font-size: 30px;
+}
+
+
+
+/*tablas de contenido e index venta*/
+@media (max-width: 780px) {
+    .tabla .display-responsive{
+       display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .tabla .display-responsive{
+       display: none;
+    }
+
+    .contSale p 
+    {
+        font-family: Open Sans Condensed;
+        font-size: 20px;
+    }
+    .tabla table td, .tabla table th{
+        font-size: 10px;
+     }
+     .tabla .img-carrito{
+         width: 50px;
+     }
+}
+
+@media (max-width: 400px) {
+    .contSale .responsive{
+        display: none;
+    }
+    
+}
+
+/*input type file*/
+.file-select {          
+    position: relative;
+    display: inline-block;
+  }
+   
+  .file-select::before {
+    background-color: #07ce07;
+    color: white;
+    display: flex;            
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    content: '///'; /* testo por defecto */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;                
+  }
+   
+  .file-select input[type="file"] {
+    opacity: 0;
+    width: 50px;
+    height: 32px;
+    display: inline-block;            
+    cursor: pointer;
+  }
+   
+  #src-file1::before {
+    content: '///';
+  }
+  /*editar usuario*/
+  .img-user{
+       width: 400px;
+  }
+
+  @media (max-width: 650px) {
+      .img-user{
+            width: 300px!important;
+      }
+  }
+  @media (max-width: 340px) {
+    .img-user{
+          width: 200px!important;
+    }
+}
+/**footer**/
+footer
+{
+  color: rgb(10, 10, 10);
+  margin: 0px auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  line-height: 47px;
+}
+
+footer .creditos{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* info*/
+@media (max-width: 500px ) {
+    .info h6{
+        font-size: 10px;
+    }
+    .info h4{
+        font-size: 15px;
+    }
+    
+}

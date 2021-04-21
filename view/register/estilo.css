@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding-top: 0;
+}
+*:focus
+{
+  outline: none;
+}
+
+body
+{
+    background-image: url('../../imagenes/system/hero2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+
+p
+{
+    margin: 0;
+    padding: 0;
+}
+.degradado-2
+{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000570+1,000c99+9,207cca+37,7db9e8+62,ceeaff+96&1+22,1+22,0.65+59,0.35+99 */
+background: -moz-linear-gradient(left,  rgba(0,5,112,1) 1%, rgba(0,12,153,1) 9%, rgba(15,64,176,1) 22%, rgba(32,124,202,0.86) 37%, rgba(114,178,228,0.65) 59%, rgba(125,185,232,0.63) 62%, rgba(206,234,255,0.37) 96%, rgba(206,234,255,0.35) 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(0,5,112,1) 1%,rgba(0,12,153,1) 9%,rgba(15,64,176,1) 22%,rgba(32,124,202,0.86) 37%,rgba(114,178,228,0.65) 59%,rgba(125,185,232,0.63) 62%,rgba(206,234,255,0.37) 96%,rgba(206,234,255,0.35) 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(0,5,112,1) 1%,rgba(0,12,153,1) 9%,rgba(15,64,176,1) 22%,rgba(32,124,202,0.86) 37%,rgba(114,178,228,0.65) 59%,rgba(125,185,232,0.63) 62%,rgba(206,234,255,0.37) 96%,rgba(206,234,255,0.35) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000570', endColorstr='#59ceeaff',GradientType=1 ); /* IE6-9 */
+}
+
+h1{
+    font-family: 'Original Surfer', cursive;
+    color: white;
+    font-size: 50px;
+  }
+  
+#form label{
+    font-weight: bold;
+}
